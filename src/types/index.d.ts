@@ -14,8 +14,13 @@ export type Character = {
 }
 
 export type Location = {
+  id: number;
   name: string;
+  type: string;
+  dimension: string;
+  residents: [];
   url; string;
+  created: string;
 }
 
 export type Origin = {
