@@ -23,7 +23,6 @@ const CharacterFinder = ({ navigation }: { navigation: any }) => {
         return response.json();
       })
       .then((data) => {
-        console.log(data);
         setCharacters(data.results);
       })
       .catch((err) => console.log(err));
@@ -56,9 +55,7 @@ const CharacterFinder = ({ navigation }: { navigation: any }) => {
               setText('');
             }}
           >
-            <Text style={styles.textList}>
-              {item.name} {item.location.dimension}
-            </Text>
+            <Text style={styles.textList}>{item.name}</Text>
           </TouchableOpacity>
         )}
       />
