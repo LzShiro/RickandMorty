@@ -5,7 +5,7 @@ Built with React Native and Expo.
 
 ### Run locally
 
-Run command `npm install & npm start`
+Run command `npm run init`
 Once the expo server is running hit 'a' to run the app on Android.
 
 ### Features
@@ -22,3 +22,4 @@ The application can search characters with the same name and has a list at the b
 React Native
 Expo
 Typescript
+Node version 16.16.0
